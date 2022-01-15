@@ -1,0 +1,19 @@
+.bodyContainer {
+  flex: 1 0 auto;
+  display: grid;
+  grid-template-columns: 10% 15% 15% 20% 15% auto;
+  grid-template-areas:
+    'dnd canvas canvas preview preview custom'
+    'dnd canvas canvas preview preview custom'
+    'dnd code code code code custom';
+  gap: 0.5rem;
+  background-color: #2196F3;
+  padding: 0.5rem;
+}
+
+.bodyContainer > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 2rem;
+}
