@@ -1,3 +1,4 @@
 .previewContainer {
   grid-area: preview;
+  border-radius: 10px;
 }

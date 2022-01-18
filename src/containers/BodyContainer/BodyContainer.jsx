@@ -11,7 +11,6 @@ const BodyContainer = () => {
     <div className="bodyContainer">
       <DnDContainer />
       <CanvasContainer />
-      <PreviewContainer />
       <CustomizationContainer />
       <CodeContainer />
     </div>
