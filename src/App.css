@@ -122,22 +122,17 @@
   transition: all 0.2s ease-in;
 }
 
-button{
+/* button{
   height: 4vh;
   width: 5vw;
   margin: 1em;
   border: 1px transparent solid;
   font-weight: 700;
   border-radius: 5px;
-}
+} */
 
 .theme-button-toggle { 
   background-color: var(--orange-400);
-}
-
-#drag-and-drop-components button { 
-  background-color: var(--neutral-100);
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 

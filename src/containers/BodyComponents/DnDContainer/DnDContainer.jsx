@@ -1,18 +1,15 @@
+import ButtonContainer from './ButtonContainer/ButtonContainer.jsx';
+import CompCreateContainer from './CompCreateContainer/CompCreateContainer.jsx';
+import TagCreateContainer from './TagCreateContainer/TagCreateContainer.jsx';
 import './DnDContainer.css';
 
 const DnDContainer = () => {
   return (
     <div className="dndContainer">
       Drag & Drop
-      <br/>
-      <br/>
-      <div id='drag-and-drop-components'>
-        <button id='div-component'>Div</button>
-        <button id='paragraph-component'>Primary</button>
-        <button id='image-component'>Image</button>
-        <button id='unordered-list-component'>Unordered List</button>
-        <button id='ordered-list-component'>Ordered List</button>
-    </div>
+      <CompCreateContainer />
+      <TagCreateContainer />
+      <ButtonContainer />
     </div>
   )
 }
